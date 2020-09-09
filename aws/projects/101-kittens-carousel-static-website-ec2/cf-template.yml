@@ -6,9 +6,9 @@ Resources:
     Properties:
       ImageId: ami-0c94855ba95c71c99
       InstanceType: t2.micro
-      KeyName: secure
+      KeyName: sadik
       SecurityGroups:
-        - launch-wizard-1
+        - launch-wizard-1	
       Tags:
         - Key: Name
           Value: Web server of Kittens Carousel
