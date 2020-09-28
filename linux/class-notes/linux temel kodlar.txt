@@ -1,0 +1,27 @@
+12  sudo yum update -y
+   13  sudo yum install httpd -y
+   14  clear
+   15  sudo system ctl sus
+   16* sudo systemctl start htt
+   17  sudo systemctl status httpd
+   18  clear
+   19  ls
+   20  cd..
+   21  cd ..
+   22  ls
+   23  cd ..
+   24  ls
+   25  cat var
+   26  cd var
+   27  cat var
+   28  ls
+   29  cd www
+   30  ls
+   31  sudo chmod -R 777 html
+   32  ls -l
+   33  cd html
+   34  touch index.html
+   35  vim index.html
+   36  cat index.html
+   37  vim index.html
+   38  sudo systemctl restart httpd
